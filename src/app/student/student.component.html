@@ -1,3 +1,20 @@
 <div class="title">
     <h2>Students management</h2>
 </div>
+<form (ngSubmit)="addStudent(studentName.value, studentSurname.value, studentClasse.value,studentCardId.value)">
+    <input type="text" #studentName placeholder="Name">
+    <input type="text" #studentSurname placeholder="Surname">
+    <input type="text" #studentClasse placeholder="Classe">
+    <input type="text" #studentCardId placeholder="Id Card">
+    <button type="submit">Add student</button>
+</form>
+<table class="table container">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Surname</td>
+        <td>Class</td>
+        <td>Id Card</td>
+    </tr>
+
+</table>

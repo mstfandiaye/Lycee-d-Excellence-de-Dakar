@@ -17,7 +17,7 @@
         <td>{{cls.id}}</td>
         <td>{{cls.name}}</td>
         <td>
-            <input type="text" #newName placeholder="New Name">
+            <input type="text" #newName placeholder="New class">
             <button (click)="updateClass(cls.id, newName.value)">Update</button>
             <button (click)="deleteClass(cls.id)">Delete</button>
         </td>

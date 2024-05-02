@@ -1,3 +1,33 @@
 .title{
     text-align: center; 
   }
+  form {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  form:nth-child(even){background-color: #f2f2f2}
+  .container table  {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid #ddd;
+    color: white;
+  } 
+  .title{
+    text-align: center; 
+  }
+  tr{
+    text-align: center;
+    background-color: #04AA6D;
+  }
+  th {
+    color: white;
+  }
+  tr:nth-child(even){background-color: #f2f2f2}
