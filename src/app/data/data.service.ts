@@ -7,15 +7,17 @@ export class DataService {
 
   constructor() { }
   // classe table by id and name
-  private classes = [
+  private classes = [ 
+
     {id : 1, name : 'Terminale S1'},
     {id : 2, name : 'Terminale S2'},
     {id : 3, name : 'Terminale S3'},
-    {id : 4, name : 'Terminale S4'}
+    {id : 4, name : 'Terminale S4'} 
+
   ]
 
   // display class
-  getClass() {
+  getClasses() {
     return this.classes ;
   }
 

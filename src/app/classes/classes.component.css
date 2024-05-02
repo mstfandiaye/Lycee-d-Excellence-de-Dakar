@@ -1,4 +1,4 @@
-.container {
+.container table  {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -8,6 +8,17 @@
     border-collapse: collapse;
   }
   
-  th, td {
+  td {
     border: 1px solid #ddd;
+  } 
+  .title{
+    text-align: center; 
   }
+  tr{
+    text-align: center;
+  }
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  tr:nth-child(even){background-color: #f2f2f2}

@@ -1,1 +1,25 @@
 
+<div class="title">
+    <h1>Dakar High School of Excellence</h1>
+    <h2>Class management</h2>
+</div>
+<form (ngSubmit)="addClass(className.value)">
+    <input type="text" #className placeholder="New class">
+    <button type="submit">Add class</button>
+</form>
+<table class="conainer table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Actions</th>
+    </tr>
+    <tr *ngFor="let cls of classes">
+        <td>{{cls.id}}</td>
+        <td>{{cls.name}}</td>
+        <td>
+            <input type="text" #newName placeholder="New Name">
+            <button (click)="updateClass(cls.id, newName.value)">Update</button>
+            <button (click)="deleteClass(cls.id)">Delete</button>
+        </td>
+    </tr>
+</table>
