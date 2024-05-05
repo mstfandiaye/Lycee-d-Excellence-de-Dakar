@@ -1,0 +1,12 @@
+.sidebar {
+    width: 250px;
+    height: 100px;
+    background-color: #04AA6D;
+    position: relative;
+    top: 0;
+    left: -2px; /* Masqué par défaut */
+    align-items: flex-end;
+}
+.sidebar-menu,a{
+    color: white;
+}
